@@ -204,7 +204,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .c-nav-btn:hover{background:var(--y);border-color:var(--y);color:#111}
 
   .carousel-viewport{overflow:hidden;width:100%;min-width:0}
-  .carousel-track{display:flex!important;gap:16px;overflow-x:auto;scroll-behavior:smooth;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;padding:10px 4px 18px;cursor:grab}
+  .carousel-track{display:flex!important;gap:16px;overflow-x:auto;overflow-y:hidden;touch-action:pan-x pan-y;overscroll-behavior-x:contain;overscroll-behavior-y:auto;scroll-behavior:smooth;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;scrollbar-width:none;-ms-overflow-style:none;padding:10px 4px 18px;cursor:grab}
   .carousel-track::-webkit-scrollbar{display:none}
   .carousel-track.dragging{cursor:grabbing;user-select:none;scroll-behavior:auto;scroll-snap-type:none}
   .carousel-track > *{scroll-snap-align:start;flex:0 0 auto!important}
