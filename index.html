@@ -34,8 +34,8 @@
   <!-- HEADER -->
   <header class="header">
     <a class="brand" href="#topo" aria-label="Andrew Harris Web Designer">
-      <svg class="brand-mark"><use href="#logo-mark"/></svg>
-      <span class="brand-text"><b>Andrew Harris</b><small>WEB DESIGNER</small></span>
+      <svg class="brand-mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-text"><b>Andrew Harris</b><small>Web Designer</small></span>
     </a>
     <nav class="nav" id="nav" aria-label="Principal">
       <a href="#topo" class="active">Home</a>
@@ -53,7 +53,6 @@
     <!-- HERO -->
     <section class="hero" id="inicio">
       <div class="hero-text">
-        <span class="chip"><i></i>DESENVOLVIMENTO<i></i>DESIGN<i></i>RESULTADOS</span>
         <h1>Crio sites modernos <em>para negócios e marcas</em></h1>
         <p>Sou Andrew Harris, desenvolvedor e web designer. Crio sites profissionais, modernos e focados em resultados para clientes de diversos segmentos.</p>
         <div class="hero-btns">
@@ -69,7 +68,6 @@
 
       <div class="hero-media" aria-hidden="true">
         <img class="hero-img" src="assets/hero.jpg" alt="Sites modernos e interfaces profissionais" width="1200" height="675" onload="this.parentNode.classList.add('has-img')" onerror="this.remove()">
-        <div class="rock"></div>
         <span class="handnote">Design que<br>gera resultados
           <svg viewBox="0 0 60 40"><path d="M55 4C40 6 22 14 8 32M8 32l2-12M8 32l12-2" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
         </span>
@@ -77,7 +75,7 @@
           <div class="screen">
             <div class="s-nav"><b><svg><use href="#logo-mark"/></svg>nexvo</b><span>Soluções &nbsp; Sobre &nbsp; Cases &nbsp; Contato</span><u>Falar com um especialista</u></div>
             <div class="s-body">
-              <h4>Transformando<br>ideias em grandes <em>negócios</em></h4>
+              <div class="mockup-title">Transformando<br>ideias em grandes <em>negócios</em></div>
               <p>Sites modernos, rápidos e focados em resultados para marcas que querem crescer.</p>
               <u class="s-btn">Começar agora →</u>
               <div class="s-stats"><span><b>+250</b>Projetos entregues</span><span><b>98%</b>Clientes satisfeitos</span><span><b>+5 anos</b>De experiência</span></div>
@@ -89,7 +87,7 @@
         <div class="phone">
           <div class="p-screen">
             <div class="p-nav"><b><svg><use href="#logo-mark"/></svg>nexvo</b><span>≡</span></div>
-            <h4>Transformando ideias em grandes <em>negócios</em></h4>
+            <div class="mockup-title">Transformando ideias em grandes <em>negócios</em></div>
             <p>Sites modernos, rápidos e focados em resultados para marcas que querem crescer.</p>
             <u class="s-btn">Começar agora →</u>
             <div class="p-art"></div>
@@ -102,9 +100,8 @@
     <!-- SERVIÇOS -->
     <section class="block services" id="servicos">
       <div class="block-head">
-        <span class="eyebrow">SERVIÇOS</span>
-        <h2>Soluções completas para o seu projeto</h2>
-        <p class="lead">Do design ao código, entrego soluções completas para criar sites que impressionam, comunicam e geram resultados.</p>
+        <h2>Serviços para o seu projeto</h2>
+        <p class="lead">Do design ao código, entrego soluções completas para criar sites que comunicam com clareza e geram resultados.</p>
         <div class="carousel-nav">
           <button class="c-nav-btn" aria-label="Serviço anterior" data-carousel-prev="carousel-servicos">
             <svg class="ic" viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
@@ -141,8 +138,7 @@
     <!-- PROJETOS -->
     <section class="block projects" id="projetos">
       <div class="block-head">
-        <span class="eyebrow">PROJETOS</span>
-        <h2>Trabalhos que geram resultados</h2>
+        <h2>Projetos em destaque</h2>
         <i class="bar"></i>
         <div class="carousel-nav">
           <button class="c-nav-btn" aria-label="Projeto anterior" data-carousel-prev="carousel-projetos">
@@ -174,8 +170,7 @@
     <!-- DEPOIMENTOS -->
     <section class="block testimonials" id="depoimentos">
       <div class="block-head">
-        <span class="eyebrow">DEPOIMENTOS</span>
-        <h2>O que meus clientes dizem</h2>
+        <h2>Depoimentos de clientes</h2>
         <i class="bar"></i>
         <div class="carousel-nav">
           <button class="c-nav-btn" aria-label="Depoimento anterior" data-carousel-prev="carousel-depoimentos">
@@ -191,7 +186,7 @@
           <article class="card quote">
             <svg class="avatar" viewBox="0 0 100 100" style="--skin:#e6b896;--hair:#8b5a3a;--cloth:#d9d4cc"><use href="#person"/></svg>
             <div class="q-body">
-              <p>“Andrew é de confiança, entrou em contato comigo sugerindo um site para meu perfil do Google, foi super profissional e paciente. Atendeu a todas as expectativas (que não foram poucas) e entregou rápido, com todas as alterações necessárias. Eu gostei muito do site e tive muitos elogios. Recomendo e faria outros serviços com ele. Obrigada pela entrega. Nota 1000 👏🥳”</p>
+              <p>“Andrew é de confiança, entrou em contato comigo sugerindo um site para meu perfil do Google, foi super profissional e paciente. Atendeu a todas as expectativas (que não foram poucas) e entregou rápido, com todas as alterações necessárias. Eu gostei muito do site e tive muitos elogios. Recomendo e faria outros serviços com ele. Obrigada pela entrega. Nota 1000.”</p>
               <div class="q-foot"><span><b>Karina Gazzeta</b><small>Brisa Estética Integrativa</small></span><span class="stars" aria-label="5 estrelas">★★★★★</span></div>
             </div>
           </article>
@@ -209,12 +204,11 @@
   </main>
 
   <footer class="footer" id="contato">
-    <div class="footer-ambient" aria-hidden="true"></div>
     <div class="footer-inner">
       <div class="footer-brand">
         <a class="brand" href="#topo" aria-label="Andrew Harris Web Designer">
-          <svg class="brand-mark"><use href="#logo-mark"/></svg>
-          <span class="brand-text"><b>Andrew Harris</b><small>WEB DESIGNER</small></span>
+          <svg class="brand-mark" aria-hidden="true"><use href="#logo-mark"/></svg>
+          <span class="brand-text"><b>Andrew Harris</b><small>Web Designer</small></span>
         </a>
         <p class="footer-desc">Desenvolvedor front-end e web designer. Crio sites modernos, rápidos e focados em gerar resultados reais para o seu negócio.</p>
         <div class="status-pill">
